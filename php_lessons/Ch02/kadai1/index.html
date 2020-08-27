@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>金額(税込み)計算</title>
+    </head>
+
+    <body>
+        <form action="conf.php" method="POST">
+            <dl>
+                <dt><label for="cost1">金額(税抜き)</label></dt>
+                <dd><input type="text" name="cost1" id="cost1"></dd>
+
+                <dt><label for="cost2">税率</label></dt>
+                <dd><input type="radio" name="cost2" value="1.05">5%</dd>
+                <dd><input type="radio" name="cost2" value="1.08" id="cost2">8%</dd>
+                <dd><input type="radio" name="cost2" value="1.10">10%</dd>
+
+                <dt><label for="cost3">個数</label></dt>
+                <dd><input type="number" name="cost3" id="cost3"></dd>
+
+            </dl>
+
+            <p><input type="submit" value="金額(税込み)計算"></p>
+        </form>
+    </body>
+</html>

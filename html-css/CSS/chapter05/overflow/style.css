@@ -1,0 +1,7 @@
+.news {
+    height: 240px;
+    width: 360px;
+    overflow: auto;
+    border: 1px solid white;
+    padding: 16px;
+}

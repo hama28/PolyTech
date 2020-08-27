@@ -1,0 +1,45 @@
+body {
+  background-color: #eee;
+}
+h2, p {
+  margin: 0;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  padding-top: 213px;
+  background-color: white;
+  margin-top: 40px;
+  float: left;
+  padding-left: 10px;
+}
+
+.card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: inline-block;
+  background-color: orangered;
+  color: white;
+  font-size: .75em;
+  padding: 4px;
+}
+
+.button-fixed {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}

@@ -1,0 +1,19 @@
+.menu li {
+    display: inline;
+}
+
+.button {
+    display: block;
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    width: 320px;
+    padding: 1em;
+    margin: 80px auto 0;
+}
+
+.button:hover {
+    background-color: blue;
+}

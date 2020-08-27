@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>福丸珈琲店　||　お問い合わせ</title>
+        <link rel="stylesheet" type="text/css" href="../css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../css/common.css">
+        <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    </head>
+    <body>
+        <div id="wap">
+            <header>
+                <h1><img src="../img/rogo.png" alt="福丸珈琲店トップページ"></h1>
+                <p>これはダミーサイトです。 <br>
+                福丸珈琲店へのお問い合わせはこちらです。</p>
+            </header>
+            <nav>
+                <ul>
+                    <li class="gnav"><a href="../index.html">トップ</a></li>
+                    <li class="gnav"><a href="../menu/index.html">メニュー</a></li>
+                    <li class="gnav"><a href="../access/index.html">アクセス</a></li>
+                    <li class="gnav"><a href="../contact/index.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <section id="main">
+                <h2>福丸珈琲店へのお問い合わせ</h2>
+                <p>ご意見・ご要望などがございましたら、お気軽にお問い合わせください。</p>
+            </section>
+            <form id="contact_form" action="../php/dummy.php" method="post">
+                <dl>
+                    <dt>お名前</dt>
+                    <dd><input type="text" name="name" id="name"></dd>
+                    <dt>メールアドレス</dt>
+                    <dd><input type="email" name="email" id="email"></dd>
+                    <dt>ご来店いただいたことはございますか</dt>
+                    <dd><input type="radio" name="visit-history" value="はい">はい</dd>
+                    <dd><input type="radio" name="visit-history" value="いいえ">いいえ</dd>
+                    <dt>福丸珈琲店をお知りになったきっかけ</dt>
+                    <dd>
+                        <select name="bring">
+                            <option value="インターネット">インターネット</option>
+                            <option value="通りかかったことがある">通りかかったことがある</option>
+                            <option value="知人の紹介">知人の紹介</option>
+                        </select>
+                    </dd>
+                    <dt>お問い合わせ内容</dt>
+                    <dd><input type="checkbox" name="inquiry-1" value="予約">ご予約に関して</dd>
+                    <dd><input type="checkbox" name="inquiry-2" value="その他">その他</dd>
+                    <dd><textarea name="comment"></textarea></dd>
+                </dl>
+                    <input type="reset" value="リセット" class="btn">
+                    <input type="submit" value="送信する" class="btn">
+            </form>
+            <footer>
+                <p><small>&copy;福丸珈琲店</small></p>
+            </footer>
+        </div>
+    </body>
+</html>

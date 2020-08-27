@@ -1,0 +1,72 @@
+* {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    padding: 20px;
+    font-size: 10px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 游明朝;
+    background-image: url("images/bg-washi.png");
+}
+
+.grid {
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.grid-item {
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.card {
+    display: block;
+    position: relative;
+    width: 300px;
+    padding-top: 220px;
+    background-color: white;
+    float: left;
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.card-title {
+    font-size: 1.25em;
+    margin-bottom: .5em;
+}
+
+.card-badge {
+    position: absolute;
+    top: 200px;
+    left: 24px;
+    z-index: 1;
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    font-size: .75em;
+    padding: 4px;
+}
+  
+#footer {
+    clear: both;
+}

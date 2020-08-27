@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 游明朝;
+    background-image: url("images/bg-washi.png");
+}
+
+header {
+    width: 100%;
+    background-color: navy;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: large;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    border-left: solid;
+    border-color: navy;
+    padding: 10px;
+}
+
+.item {
+    margin: 10px;
+    background-color: white;
+}
+
+.item h3 {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.item p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container p {
+    padding: 10px;
+}
+
+#footer{
+    color: white;
+    background-color: navy;
+    padding: 15px 0;
+}

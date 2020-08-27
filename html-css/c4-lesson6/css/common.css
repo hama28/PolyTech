@@ -1,0 +1,84 @@
+header {
+    background-image: url(../img/top_bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 45%;
+}
+
+header p {
+    position: relative;
+    left: 20px;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+header h1 img {
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+img.main_img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 游ゴシック;
+    color: white;
+    background-color: rgb(112, 88, 75);
+}
+
+#wap {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wap p {
+    color: white;
+}
+
+ul.gnav {
+    overflow: hidden;
+}
+
+li.gnav {
+    background-color: #8f6453;
+    font-size: 1.5em;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 30px;
+    border-bottom: solid 2px #d6c3b5;
+    padding: 15px 0;
+    float: left;
+}
+
+section#main {
+    clear: left;
+}
+
+li.gnav a:link {
+    color: #dfded9;
+}
+li.gnav a:visited {
+    color: #463a30;
+}
+li.gnav a:hover {
+    color: #ffcd83;
+}
+
+#main h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    margin: 20px;
+}

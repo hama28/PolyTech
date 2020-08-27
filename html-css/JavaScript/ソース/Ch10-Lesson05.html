@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ch10-Lesson05</title>
+        <style type="text/css">
+            .red_text
+            {
+                color:red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>以下の選択肢から<span class="red_text">該当するもの</span>を選択してください</h1>
+        <form action="#">
+            <label><input type="checkbox" name="study" value="ネットワーク">ネットワーク</label>
+            <label><input type="checkbox" name="study" value="Web">Web</label>
+            <label><input type="checkbox" name="study" value="プログラミング">プログラミング</label>
+            <label><input type="checkbox" name="study" value="グラフィック">グラフィック</label>
+        </form>
+
+        <p>
+            <button type="button" onclick="onTagButtonClick()">タグ名で取得ボタン</button>
+            <button type="button" onclick="onClassButtonClick()">クラス名で取得ボタン</button>
+            <button type="button" onclick="onNameButtonClick()">name属性で取得ボタン</button>
+            <p id="result">ここに結果が表示されます</p>
+        </p>
+        
+        <script type="text/javascript" src="js/Ch10-Lesson05.js"></script>
+    </body>
+</html>

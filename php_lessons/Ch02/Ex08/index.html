@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>データの送信 POST XSS対策</title>
+    </head>
+
+    <body>
+        <form action="conf.php" method="POST">
+            <dl>
+                <dt><label for="word1">XSS対策なし</label></dt>
+                <dd><input type="text" name="word1" id="word1"></dd>
+                <dt><label for="word2">XSS対策あり</label></dt>
+                <dd><input type="text" name="word2" id="word2"></dd>
+            </dl>
+            <p><input type="submit" value="ログイン"></p>
+        </form>
+    </body>
+</html>

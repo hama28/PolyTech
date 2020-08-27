@@ -1,0 +1,35 @@
+#main {
+    margin-bottom: 50px;
+}
+
+#main p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 294px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bb9b88;
+    text-align: center;
+    border: #92725d solid 3px;
+}
+
+.btn a {
+    padding: 20px 0;
+    display: block;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.btn a:link {
+    color: #dfded9;
+}
+
+.btn a:visited {
+    color: #463a30;
+}
+
+.btn a:hover {
+    color: #ffcd83;
+}

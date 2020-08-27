@@ -1,0 +1,20 @@
+h2, p {
+  margin: 0;
+}
+
+.content {
+  width: 690px;
+  clear: both;
+}
+
+.content-left {
+  float: left;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.content-right {
+  float: right;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}

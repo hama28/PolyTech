@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+body {
+  background-color: #eee;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+}
+
+#contents {
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+#main {
+  background-color: #fff;
+  width: 690px;
+  float: left;
+}
+
+#side {
+  background-color: #fff;
+  width: 240px;
+  float: right;
+}
+
+#footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  clear: both;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+

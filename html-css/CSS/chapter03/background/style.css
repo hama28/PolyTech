@@ -1,0 +1,24 @@
+body {
+    background-image: url(../background/images/star.png);
+    background-attachment: fixed;
+    background-size: 24px 24px;
+}
+
+h1 {
+    /*
+    background-color: aqua;
+    background-image: url(../background/images/hart.png);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    */
+
+    background: aqua url(../background/images/hart.png) no-repeat 90% center;
+}
+
+.bg1 {
+    background-color: darkgoldenrod;
+}
+
+.bg2 {
+    background-color: hotpink;
+}
