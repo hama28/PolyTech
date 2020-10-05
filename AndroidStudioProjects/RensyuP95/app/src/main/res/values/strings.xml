@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application6</string>
+    <string name="btn1">日付を入力</string>
+    <string name="btn2">時刻を入力</string>
+</resources>
